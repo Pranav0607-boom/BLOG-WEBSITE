@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(beauty.jpg)
+}
+
+header {
+  background-color: #8525cf;
+  color: bisque;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+.post {
+  border-bottom: 1px solid lightcyan;
+  padding: 1rem 0;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.post h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.post p {
+  margin: 0;
+}
